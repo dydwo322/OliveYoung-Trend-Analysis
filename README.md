@@ -9,11 +9,12 @@
 22.08.08 ~ 22.08.19
 
 ### ○ 프로젝트 분석 목표
-크롤링을 통해 활용할 수 있는 데이터 파악<br>
 
-등급화한 화장품의 성분등급과 고객 리뷰 평가 간의 관계 분석<br>
+<div><img width="500" height="150px" alt="crawling" src="https://user-images.githubusercontent.com/79880476/203086943-b69dde05-c282-441d-aadf-669bd20959df.jpg"><p>-크롤링을 통해 활용할 수 있는 데이터 파악</p></div>
 
-제품 설명에서 강조하는 키워드와 실제 평가에서 많이 나온 키워드 비교<br>
+<div><img width="500" height="150px" alt="ewa" src="https://user-images.githubusercontent.com/79880476/203086934-481ca132-a434-43dc-a464-79a3f2eece89.jpg"><p>-등급화한 화장품의 성분등급과 고객 리뷰 평가 간의 관계 분석</p></div>
+
+<div><img width="500" height="150px" alt="keyword" src="https://user-images.githubusercontent.com/79880476/203089489-1cadf244-8dd0-44a5-b449-540cce9b6632.jpg"><p>-제품 설명에서 강조하는 키워드와 실제 평가에서 많이 나온 키워드 비교</p></div>
 
 
 ---
