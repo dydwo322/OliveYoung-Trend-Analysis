@@ -10,12 +10,20 @@
 
 ### ○ 프로젝트 분석 목표
 
-<div><img width="500" height="150px" alt="crawling" src="https://user-images.githubusercontent.com/79880476/203086943-b69dde05-c282-441d-aadf-669bd20959df.jpg"><p>-크롤링을 통해 활용할 수 있는 데이터 파악</p></div>
+<div><img width="500" height="150px" alt="crawling" src="https://user-images.githubusercontent.com/79880476/203086943-b69dde05-c282-441d-aadf-669bd20959df.jpg"><p>- 크롤링을 통해 활용할 수 있는 데이터 파악</p></div>
 
-<div><img width="500" height="150px" alt="ewa" src="https://user-images.githubusercontent.com/79880476/203086934-481ca132-a434-43dc-a464-79a3f2eece89.jpg"><p>-등급화한 화장품의 성분등급과 고객 리뷰 평가 간의 관계 분석</p></div>
+<div><img width="500" height="150px" alt="ewa" src="https://user-images.githubusercontent.com/79880476/203086934-481ca132-a434-43dc-a464-79a3f2eece89.jpg"><p>- 제품에 들어간 성분의 등급 점수와 리뷰 점수와의 상관관계 분석</p></div>
 
-<div><img width="500" height="150px" alt="keyword" src="https://user-images.githubusercontent.com/79880476/203089489-1cadf244-8dd0-44a5-b449-540cce9b6632.jpg"><p>-제품 설명에서 강조하는 키워드와 실제 평가에서 많이 나온 키워드 비교</p></div>
+<div><img width="500" height="150px" alt="keyword" src="https://user-images.githubusercontent.com/79880476/203089489-1cadf244-8dd0-44a5-b449-540cce9b6632.jpg"><p>- 상품 설명에서 어필 하고 있는 키워드와 리뷰에서 해당 키워드가 일치하는지 분석</p></div>
 
+---
+### ○ 역할분담
+- 이재엽 : 데이터 크롤링(리뷰) & 데이터 등급점수와 리뷰점수간 상관관계 분석 
+- 김용재 : 데이터 크롤링(화장품의 성분표) & 데이터 전처리(성분표)
+- 정효제 : 데이터 크롤링(광고 키워드) & 데이터 전처리(성분표) 
+- 한서연 : 데이터 크롤링(리뷰어의 선택 키워드) & 데이터 키워드 간 상관관계 분석
+- 이정아 : 데이터 크롤링(화장품 성분 등급 & 데이터 등급점수와 리뷰점수간 상관관계 분석 
+- 전은성 : 데이터 크롤링(리뷰어의 선택 키워드) & 데이터 키워드 간 상관관계 분석
 
 ---
 
