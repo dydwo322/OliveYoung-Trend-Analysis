@@ -1,7 +1,19 @@
 # Text-Mining Project(OliveYoung-Trend-Analysis)
 
-<img width="500" alt="OliveYoung" src="">
+<img width="500" alt="OliveYoung" src="https://user-images.githubusercontent.com/79880476/203081488-d2794fad-7fd3-4b0a-b3c3-0cfa46ebdf51.jpg">
 
+### ○ 프로젝트 주제 
+올리브영의 고객 리뷰 데이터와 화장품이 가진 성분들을 이용해 트렌드와 관련된 요소들을 분석해 보고 소비자 성향을 분석
+
+### ○ 프로젝트 기간
+22.08.08 ~ 22.08.19
+
+### ○ 프로젝트 분석 목표
+크롤링을 통해 활용할 수 있는 데이터 파악<br>
+
+등급화한 화장품의 성분등급과 고객 리뷰 평가 간의 관계 분석<br>
+
+제품 설명에서 강조하는 키워드와 실제 평가에서 많이 나온 키워드 비교<br>
 
 
 ---
