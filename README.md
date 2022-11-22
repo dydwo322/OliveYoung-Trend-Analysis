@@ -23,13 +23,13 @@
 ### 3. 리뷰어들의 세부 선택정보 크롤링
 ---
 # 2. 전처리
-### 1. 화장품의 성분표을 전처리
+### 1. 화장품의 성분표, 리뷰  전처리
 ### 2. 화장품 성분들을 등급 변환해주는 전처리
 
 ---
 # 3. 이슈 
 ### 1. 리뷰의 개수가 적은 제품, 같은 제품이지만 다른 상품으로 나오는 제품들, 제품당 크롤링 가능 개수 1000개 제한
-<div><img width=350 src="https://user-images.githubusercontent.com/79880476/203354040-c9033039-8987-419c-a828-cdbe1015222e.jpg"></div>
+<div><img width=950 height=200px src="https://user-images.githubusercontent.com/79880476/203359679-83ce4b32-9c73-4ef8-8dc2-8adda87fd33a.jpg"></div>
 
 ### 2. 성분표 제품별로 형식이 규격 없이 제각기로 표시됨
 <div><img width=750 height=120px src="https://user-images.githubusercontent.com/79880476/203354047-174f18ee-a256-44aa-89c4-572d000ae7d4.jpg"></div>
