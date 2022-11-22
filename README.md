@@ -30,45 +30,45 @@
 # 0. 목차
 <table>
     <thead>
-        <tr>
+        <tr align=center>
             <th>번호</th>
             <th>목차</th>   
         </tr>
     </thead>
     <tbody>
-        <tr>
+        <tr align=center>
             <td>1</td>
             <td><a href="#1">데이터 수집</a></td>
         </tr>
-        <tr>
+        <tr align=center>
             <td>2</td>
             <td><a href="#2">전처리</a></td>
         </tr>
-        <tr>
+        <tr align=center>
             <td>3</td>
             <td><a href="#3">이슈</a></td>
         </tr>
-        <tr>
+        <tr align=center>
             <td>4</td>
             <td><a href="#4">해결</a></td>
         </tr>
-        <tr>
+        <tr align=center>
             <td>5</td>
             <td><a href="#5">분석</a></td>
         </tr>
-        <tr>
+        <tr align=center>
             <td>6</td>
             <td><a href="#6">결론</a></td>
         </tr>
-        <tr>
+        <tr align=center>
             <td>7</td>
             <td><a href="#7">사용 코드</a></td>
         </tr>
-        <tr>
+        <tr align=center>
             <td>8</td>
             <td><a href="#8">피드백</a></td>
         </tr>
-        <tr>
+        <tr align=center>
             <td>9</td>
             <td><a href="#9">멤버 & 역할</a></td>
         </tr>  
