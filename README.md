@@ -162,31 +162,31 @@
     <tbody>
         <tr>
             <td>올리브영 크롤링 코드</td>
-            <td><a>OliveYoung_Crawling.ipynb</a></td>
+            <td><a href = "https://github.com/dydwo322/OliveYoung-Trend-Analysis/blob/main/OliveYoung_Crawling.ipynb">OliveYoung_Crawling.ipynb</a></td>
             <td> 올리브영 제품의 리뷰, 성분표 크롤링 코드입니다.</td>
         </tr>
         <tr>
             <td>올리브영 전처리 코드</td>
-            <td><a>OliveYoung_Data_Preprocessing.ipynb</a></td>
+            <td><a href = "https://github.com/dydwo322/OliveYoung-Trend-Analysis/blob/main/OliveYoung_Data_Preprocessing.ipynb">OliveYoung_Data_Preprocessing.ipynb</a></td>
             <td> 올리브영 제품의 리뷰, 성분표, 토큰화 전처리 코드입니다.</td>
         <tr>
             <td>올리브영 성분등급 변환 코드</td>
-            <td><a>OliveYoung_EWG_HazardScore_Change.ipynb</a></td>
+            <td><a href = "https://github.com/dydwo322/OliveYoung-Trend-Analysis/blob/main/OliveYoung_EWG_HazardScore_Change.ipynb">OliveYoung_EWG_HazardScore_Change.ipynb</a></td>
             <td> 올리브영 제품 성분들을 EWG성분등급으로 변환해 등급을 정해주는 코드입니다.</td>
         </tr>
         <tr>
             <td>올리브영 데이터 분석 코드</td>
-            <td><a>OliveYoung_LDA&Sentiment_analysis.ipynb</a></td>
+            <td><a href = "https://github.com/dydwo322/OliveYoung-Trend-Analysis/blob/main/OliveYoung_LDA&Sentiment_analysis.ipynb">OliveYoung_LDA&Sentiment_analysis.ipynb</a></td>
             <td> 올리브영 리뷰를 통해 감성분석 & 키워드를 도출해 분석을 하는 코드입니다.</td>
         </tr>        
         <tr>
             <td>올리브영 광고키워드,리뷰키워드 비교 코드</td>
-            <td><a>OliveYoung_AD_Keyword.ipynb</a></td>
+            <td><a href = "https://github.com/dydwo322/OliveYoung-Trend-Analysis/blob/main/OliveYoung_AD_Keyword.ipynb">OliveYoung_AD_Keyword.ipynb</a></td>
             <td> 올리브영 리뷰키워드와 제품키워드를 비교해 분석하는 코드입니다.</td>
         </tr>
         <tr>
             <td>올리브영 시각화 자료 코드</td>
-            <td><a>OliveYoung_Data_Visualization.ipynb</a></td>
+            <td><a href = "https://github.com/dydwo322/OliveYoung-Trend-Analysis/blob/main/OliveYoung_Data_Visualization.ipynb">OliveYoung_Data_Visualization.ipynb</a></td>
             <td> 올리브영 리뷰&키워드 비교분석을 하며 시각화에 사용했던 코드 모음입니다.</td>
         </tr>    
     </tbody>
