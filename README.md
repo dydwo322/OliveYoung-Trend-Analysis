@@ -10,11 +10,20 @@
 
 ### ○ 프로젝트 목표
 
-<div><img width="500" height="150px" alt="crawling" src="https://user-images.githubusercontent.com/79880476/203086943-b69dde05-c282-441d-aadf-669bd20959df.jpg"><p>- 크롤링을 통해 활용할 수 있는 데이터 파악</p></div>
-
-<div><img width="500" height="150px" alt="ewa" src="https://user-images.githubusercontent.com/79880476/203086934-481ca132-a434-43dc-a464-79a3f2eece89.jpg"><p>- 제품에 들어간 성분의 등급 점수와 리뷰 점수와의 상관관계 분석</p></div>
-
-<div><img width="500" height="150px" alt="keyword" src="https://user-images.githubusercontent.com/79880476/203089489-1cadf244-8dd0-44a5-b449-540cce9b6632.jpg"><p>- 상품 설명에서 어필 하고 있는 키워드와 리뷰에서 해당 키워드가 일치하는지 분석</p></div>
+<table style="text-align: center;">
+  <tr align=center>
+    <td><img src="https://user-images.githubusercontent.com/79880476/203086943-b69dde05-c282-441d-aadf-669bd20959df.jpg" ></td>
+  </tr>
+  <tr align=center><td>- 크롤링을 통해 활용할 수 있는 데이터 파악</td></tr>
+  <tr align=center>
+    <td><img src="https://user-images.githubusercontent.com/79880476/203086934-481ca132-a434-43dc-a464-79a3f2eece89.jpg"></td>
+  </tr>
+  <tr align=center><td>- 제품에 들어간 성분의 등급 점수와 리뷰 점수와의 상관관계 분석</td></tr>
+  <tr align=center>
+    <td><img src="https://user-images.githubusercontent.com/79880476/203089489-1cadf244-8dd0-44a5-b449-540cce9b6632.jpg"></td>
+  </tr>
+  <tr align=center><td>- 상품 설명에서 어필 하고 있는 키워드와 리뷰에서 해당 키워드가 일치하는지 분석</td></tr>
+</table>
 
 ---
 
@@ -65,16 +74,23 @@
         </tr>  
      </tbody>
 </table>
+<br>
+<br>
 
 ---
 # 1. <a name="1">데이터 수집</a>
 ### 1. 올리브영 스킨/로션 화장품 성분표, 리뷰 크롤링
 ### 2.  리뷰어들의 세부 선택정보 크롤링
+<br>
+<br>
+
 ---
 # 2. <a name="2">전처리</a>
 ### 1. 화장품의 성분표, 리뷰  전처리
 ### 2. Customized KoNLPy 라이브러리 활용해 화장품도메인  전처리
 ### 3. COOS를 이용한 화장품 성분별 등급 변환해주는 전처리
+<br>
+<br>
 
 ---
 # 3. <a name="3">이슈</a>
@@ -89,6 +105,8 @@
 
 ### 4. 리뷰의 라벨링 & 긍부정 사전의 한계
 <div><img width=750 height=150px src="https://user-images.githubusercontent.com/79880476/203354173-00230ec6-627c-4d85-acd2-59ed5764d351.jpg"></div>
+<br>
+<br>
 
 ---
 # 4. <a name="4">해결</a>
@@ -100,6 +118,8 @@
 <div><img width=950 height=450px src="https://user-images.githubusercontent.com/79880476/203356233-b6a8a8d7-a1b3-49c9-815f-1057df9383f0.jpg"></div>
 
 ### 4. 리뷰의 라벨링을 새로운 조건 및 정교화 작업을 통해 잘못 분류 되는 비중을 낮춤<br>
+<br>
+<br>
 
 ---
 # 5. <a name="5">분석 </a>
@@ -129,6 +149,8 @@
   </tr>
   <tr align=center><td>- 전체 제품의 성분 score값과 긍부정 리뷰 비율의 그래프</td></tr>
 </table>
+<br>
+<br>
 
 ---
 # 6. <a name="6">결론</a>
@@ -148,6 +170,8 @@
 </table>
 
 ### ∴ 약간의 관계성이 있어 보이지만, 표본 데이터 83개 & 긍정 리뷰 비중이 95%정도 이기 때문에 연관성을 분석하기에 한계가 있고, 좀 더 정확한 분석을 하기위해서 데이터가 더 필요하다고 판단하였습니다.<br>
+<br>
+<br>
 
 ---
 # 7. <a name="7">사용 코드</a>
@@ -191,7 +215,8 @@
         </tr>    
     </tbody>
 </table>
-
+<br>
+<br>
 
 ---
 # 8. <a name="8">피드백</a>
@@ -201,6 +226,8 @@
 - 마지막 그래프에서 기존 앞에 보여준 스코어랑 달리 minmaxscaled로 수치로 바꾸는 과정 왜 선택해서 바꿔서 그래프를 그렸는지 이유랑 이런것을 보여주는게 필요할 거 같다.
 - 토큰화 시, 안걸러지는 도메인 용어를 용어사전으로 만들어서 커스텀마이징을 이용한 것은 잘했다.
 - 주제가 되게 괜찮았다. 또한 여러가지 성분 등급표, 광고 키워드 등 여러가지 활용할 수있는 자료들이 많았던 조였고, 나중에 이를 통해서 성분쪽으로 관련지어 진행해서 하면 괜찮을 것 같다.
+<br>
+<br>
 
 ---
 #  9. <a name="9">멤버 & 역할</a>
