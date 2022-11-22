@@ -15,7 +15,9 @@
 <div><img width="500" height="150px" alt="ewa" src="https://user-images.githubusercontent.com/79880476/203086934-481ca132-a434-43dc-a464-79a3f2eece89.jpg"><p>- 제품에 들어간 성분의 등급 점수와 리뷰 점수와의 상관관계 분석</p></div>
 
 <div><img width="500" height="150px" alt="keyword" src="https://user-images.githubusercontent.com/79880476/203089489-1cadf244-8dd0-44a5-b449-540cce9b6632.jpg"><p>- 상품 설명에서 어필 하고 있는 키워드와 리뷰에서 해당 키워드가 일치하는지 분석</p></div>
+
 ---
+
 # 0. 목차
 <table>
     <thead>
@@ -27,7 +29,7 @@
     <tbody>
         <tr>
             <td>1</td>
-            <td>데이터수집</td>
+            <td>데이터 수집</td>
         </tr>
         <tr>
             <td>2</td>
@@ -60,10 +62,10 @@
         <tr>
             <td>9</td>
             <td>멤버 & 역할</td>
-        </tr>
-        
-    </tbody>
+        </tr>  
+     </tbody>
 </table>
+
 ---
 # 1. 데이터 수집 
 ### 1. 올리브영 스킨/로션 화장품 성분표, 리뷰 크롤링
