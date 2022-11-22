@@ -43,6 +43,14 @@
 ---
 # 6. 분석 
 #### 1. 전체 리뷰의 내용을 LDA 토픽 모델링하여 '보습,진정,자극'의 3가지 카테고리로 분류 되었다.
+<div>
+<a><img style="width:50%" src="https://user-images.githubusercontent.com/79880476/203086943-b69dde05-c282-441d-aadf-669bd20959df.jpg"></a>
+<a><img style="width:50%" src="https://user-images.githubusercontent.com/79880476/203086943-b69dde05-c282-441d-aadf-669bd20959df.jpg"></a>
+<a><img style="width:50%" src="https://user-images.githubusercontent.com/79880476/203086943-b69dde05-c282-441d-aadf-669bd20959df.jpg"></a>
+<a><img style="width:50%" src="https://user-images.githubusercontent.com/79880476/203086943-b69dde05-c282-441d-aadf-669bd20959df.jpg"></a>
+</div>
+
+
 #### 2. '보습,진정,자극'의 제품 설명 강조 키워드의 빈도를 수치화하여, 광고 키워드와 비교하였는데 83개 제품 중 14개만 일치하였다. → 키워드 실제 효능과 무관 -> 소비자에게 사용자들이 평가한 효능 수치화 해서 정보 제공 목적으로 활용 가능하다고 판단하였다.
 #### 3. 성분 등급 점수 &댓글 평가 지수 상관 관계 분석을 해봤는데, 약간의 관계성이 있어 보이지만 표본 데이터 80개 & 긍정 리뷰 비중이 95%정도 이기 때문에 연관성을 분석하기에 한계가 있다고 판단했습니다.
 ---
