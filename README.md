@@ -29,11 +29,11 @@
     <tbody>
         <tr>
             <td>1</td>
-            <td>데이터 수집</td>
+            <td><a href="#1">데이터 수집</a></td>
         </tr>
         <tr>
             <td>2</td>
-            <td>전처리</td>
+            <td><a href="#2">전처리</a></td>
         </tr>
         <tr>
             <td>3</td>
