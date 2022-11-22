@@ -43,22 +43,14 @@
 ---
 # 6. 분석 
 ### 1. 전체 리뷰의 내용을 LDA 토픽 모델링하여 '보습,진정,자극'의 3가지 카테고리로 분류 되었다.
-<div>
-<img width="500" height="400px" src="https://user-images.githubusercontent.com/79880476/203334695-814dd302-4b38-4e94-9074-498f77e7481b.jpg">
-</div>
-<a> - LDA 토픽 모델링 전체 키워드</a><br>
-<div>
-<img width="500" height="400px" src="https://user-images.githubusercontent.com/79880476/203334717-d5722778-0356-4942-94dd-55fbbbb7f81a.jpg">
-</div>
-<a> - LDA 토픽 모델링 '진정'</a><br>
-<div>
-<img width="500" height="400px" src="https://user-images.githubusercontent.com/79880476/203334744-42125897-ddec-4615-8892-2474f44d7300.jpg">
-</div>
-<a> - LDA 토픽 모델링 '자극'</a><br>
-<div>
-<img width="500" height="400px" src="https://user-images.githubusercontent.com/79880476/203334761-c921fe16-655c-413e-91f0-722e6d0f200c.jpg">
-</div>
-<a> - LDA 토픽 모델링 '보습'</a><br>
+<table>
+  <tr align=center>
+    <td><img src="https://user-images.githubusercontent.com/79880476/203334695-814dd302-4b38-4e94-9074-498f77e7481b.jpg"/>- LDA 토픽 모델링 전체 키워드</td><td><img  src="https://user-images.githubusercontent.com/79880476/203334717-d5722778-0356-4942-94dd-55fbbbb7f81a.jpg"/> - LDA 토픽 모델링 '진정'</td>
+  </tr>
+  <tr align=center>
+    <td><img src="https://user-images.githubusercontent.com/79880476/203334744-42125897-ddec-4615-8892-2474f44d7300.jpg"/>- LDA 토픽 모델링 '자극'</td><td><img  src="https://user-images.githubusercontent.com/79880476/203334761-c921fe16-655c-413e-91f0-722e6d0f200c.jpg"/>- LDA 토픽 모델링 '보습'</td>
+  </tr>
+</table>
 
 ### 2. '보습,진정,자극'의 제품 설명 강조 키워드의 빈도를 수치화하여, 광고 키워드와 비교하였는데 83개 제품 중 14개만 일치하였다. → 키워드 실제 효능과 무관 -> 소비자에게 사용자들이 평가한 효능 수치화 해서 정보 제공 목적으로 활용 가능하다고 판단하였다.
 <div> 
@@ -72,18 +64,18 @@
 
 ### 3. 성분 등급 점수 &댓글 평가 지수 상관 관계 분석을 해봤는데, 약간의 관계성이 있어 보이지만 표본 데이터 80개 & 긍정 리뷰 비중이 95%정도 이기 때문에 연관성을 분석하기에 한계가 있다고 판단했습니다.(긍정 - 하강그래프 / 부정 - 상승그래프가 이상적)
 <div>
-<img width="700" height="350px" src="https://user-images.githubusercontent.com/79880476/203334534-6a142fc4-91af-4e3e-8137-25db8dad147e.jpg">
+<img width="800" height="300px" src="https://user-images.githubusercontent.com/79880476/203342856-5e07e51c-10c1-4fae-8453-adef65f92d9b.jpg">
 </div>
 <a> - 전체 제품의 성분 score값과 긍부정 리뷰 비율의 그래프</a><br>
 
 ---
 # 7. 결론 
 <div>
-<img width="800" height="450px" src="https://user-images.githubusercontent.com/79880476/203341428-1e35cbc5-937a-48ea-b488-f26af99305aa.jpg">
+<img width="400" height="350px" src="https://user-images.githubusercontent.com/79880476/203342847-cf1713b7-a786-44e1-8e07-13bed3558287.jpg">
 </div>
 <a> - 제품 성분등급 & 제품의 긍정 리뷰 지수 간의 상관관계 그래프</a><br>
 
-## 약간의 관계성이 있어 보이지만, 표본 데이터 83개 & 긍정 리뷰 비중이 95%정도 이기 때문에 연관성을 분석하기에 한계가 있다고 판단
+### ∴약간의 관계성이 있어 보이지만, 표본 데이터 83개 & 긍정 리뷰 비중이 95%정도 이기 때문에 연관성을 분석하기에 한계가 있다고 판단하였습니다.<br>
 
 ---
 # 8. 사용 코드 
