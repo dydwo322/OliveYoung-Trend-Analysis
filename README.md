@@ -25,30 +25,34 @@
 # 2. 전처리
 ### 1. 화장품의 성분표을 전처리
 ### 2. 화장품 성분들을 등급 변환해주는 전처리
----
-# 3. 데이터 분석방법
 
 ---
-# 4. 이슈 
+# 3. 이슈 
 ### 1. 리뷰의 개수가 적은 제품, 같은 제품이지만 다른 상품으로 나오는 제품들, 제품당 크롤링 가능 개수 1000개 제한
 <div><img width=350 src="https://user-images.githubusercontent.com/79880476/203354040-c9033039-8987-419c-a828-cdbe1015222e.jpg"></div>
 
 ### 2. 성분표 제품별로 형식이 규격 없이 제각기로 표시됨
-<div><img width=950 height=180px src="https://user-images.githubusercontent.com/79880476/203354047-174f18ee-a256-44aa-89c4-572d000ae7d4.jpg"></div>
+<div><img width=750 height=120px src="https://user-images.githubusercontent.com/79880476/203354047-174f18ee-a256-44aa-89c4-572d000ae7d4.jpg"></div>
 
 ### 3. 화장품 도메인에서만 사용하는 단어들이 토큰화X
-<div><img width=950 height=180px src="https://user-images.githubusercontent.com/79880476/203354047-174f18ee-a256-44aa-89c4-572d000ae7d4.jpg"></div>
+<div><img width=750 height=120px src="https://user-images.githubusercontent.com/79880476/203356326-80c0c8ca-dc19-4dad-97dc-5025baf2cf72.jpg"></div>
 
 ### 4. 리뷰의 라벨링 & 긍부정 사전의 한계
-<div><img width=950 height=180px src="https://user-images.githubusercontent.com/79880476/203354173-00230ec6-627c-4d85-acd2-59ed5764d351.jpg"></div>
+<div><img width=750 height=150px src="https://user-images.githubusercontent.com/79880476/203354173-00230ec6-627c-4d85-acd2-59ed5764d351.jpg"></div>
+
 ---
-# 5. 해결
-### 1. 리뷰 개수 부족 & 중복 상품 제거 → 83개의 제품(제품당 댓글 개수는 충분하다고 판단)
+# 4. 해결
+### 1. 리뷰 개수 부족 & 중복 상품 제거 → 83개의 제품(제품당 댓글 개수는 충분하다고 판단)<br>
 ### 2. 성분표 제품별로 형식을 동일하게 정규표현식을 이용하여 정형화 작업
+<div><img width=750 height=150px src="https://user-images.githubusercontent.com/79880476/203354045-5c64cbf4-0a61-4c62-938d-7552b9ff395d.jpg"></div>
+
 ### 3. Customized KoNLPy 라이브러리 활용하여 화장품 도메인 단어(닦토,흡토) 토큰화
-### 4. 리뷰의 라벨링을 새로운 조건 및 정교화 작업을 통해 잘못 분류 되는 비중을 낮춤
+<div><img width=950 height=450px src="https://user-images.githubusercontent.com/79880476/203356233-b6a8a8d7-a1b3-49c9-815f-1057df9383f0.jpg"></div>
+
+### 4. 리뷰의 라벨링을 새로운 조건 및 정교화 작업을 통해 잘못 분류 되는 비중을 낮춤<br>
+
 ---
-# 6. 분석 
+# 5. 분석 
 ### 1. 전체 리뷰의 내용을 LDA 토픽 모델링하여 '보습,진정,자극'의 3가지 카테고리로 분류 되었다.
 <table>
   <tr align=center>
@@ -77,7 +81,7 @@
 </table>
 
 ---
-# 7. 결론
+# 6. 결론
 <table>
   <tr >
     <td><img src="https://user-images.githubusercontent.com/79880476/203334516-b5bd2da3-e1b7-4946-ba8f-080848e02ccd.jpg"></td>
@@ -96,7 +100,7 @@
 ### ∴ 약간의 관계성이 있어 보이지만, 표본 데이터 83개 & 긍정 리뷰 비중이 95%정도 이기 때문에 연관성을 분석하기에 한계가 있고, 좀 더 정확한 분석을 하기위해서 데이터가 더 필요하다고 판단하였습니다.<br>
 
 ---
-# 8. 사용 코드 
+# 7. 사용 코드 
 <table>
     <thead>
         <tr>
@@ -145,7 +149,7 @@
 
 
 ---
-# 9. 피드백
+# 8. 피드백
 - 성분의 성분별 등급을 스코어화 하는데 그것을 가지고 전체 스코어를 평균값을 구하고, 그것을 기준으로 비교 할 수 있는 지표(분산,평균치를 기준으로 4분위를 표시 etc..)을 구해서 추가해주면 좀 더 좋을 거 같다.
 - 긍정리뷰의 비율과 성분등급의 minmaxscaled를 그린 그래프를 긍정비율의 상º하위 20%의 평균을 구해서 비교해봐라.
 - 성분의 성분별 등급을 스코어화 하는데 과정을 좀 더  추가 해줬으면 좋겠다. 과정을 모르는 학생분들은 알기 쉽지 않다.
