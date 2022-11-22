@@ -18,7 +18,7 @@
 
 ---
 # 1. 데이터 수집 
-### 1. 올리브영 스킨/로션 화장품 리뷰 크롤링
+### 1. 올리브영 스킨/로션 화장품 성분표, 리뷰 크롤링
 ### 2. COOS를 이용한 성분별 등급 크롤링
 ### 3. 리뷰어들의 세부 선택정보 크롤링
 ---
@@ -31,9 +31,16 @@
 ---
 # 4. 이슈 
 ### 1. 리뷰의 개수가 적은 제품, 같은 제품이지만 다른 상품으로 나오는 제품들, 제품당 크롤링 가능 개수 1000개 제한
+<div><img width=350 src="https://user-images.githubusercontent.com/79880476/203354040-c9033039-8987-419c-a828-cdbe1015222e.jpg"></div>
+
 ### 2. 성분표 제품별로 형식이 규격 없이 제각기로 표시됨
+<div><img width=950 height=180px src="https://user-images.githubusercontent.com/79880476/203354047-174f18ee-a256-44aa-89c4-572d000ae7d4.jpg"></div>
+
 ### 3. 화장품 도메인에서만 사용하는 단어들이 토큰화X
+<div><img width=950 height=180px src="https://user-images.githubusercontent.com/79880476/203354047-174f18ee-a256-44aa-89c4-572d000ae7d4.jpg"></div>
+
 ### 4. 리뷰의 라벨링 & 긍부정 사전의 한계
+<div><img width=950 height=180px src="https://user-images.githubusercontent.com/79880476/203354173-00230ec6-627c-4d85-acd2-59ed5764d351.jpg"></div>
 ---
 # 5. 해결
 ### 1. 리뷰 개수 부족 & 중복 상품 제거 → 83개의 제품(제품당 댓글 개수는 충분하다고 판단)
