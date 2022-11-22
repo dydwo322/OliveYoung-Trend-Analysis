@@ -52,30 +52,41 @@
   </tr>
 </table>
 
-### 2. '보습,진정,자극'의 제품 설명 강조 키워드의 빈도를 수치화하여, 광고 키워드와 비교하였는데 83개 제품 중 14개만 일치하였다. → 키워드 실제 효능과 무관 -> 소비자에게 사용자들이 평가한 효능 수치화 해서 정보 제공 목적으로 활용 가능하다고 판단하였다.
-<div> 
-<img width="500" height="350px" src="https://user-images.githubusercontent.com/79880476/203334488-52d14bed-14c8-441a-8964-8b37a5aca6f1.jpg">
-</div>
-<a> - 광고 키워드와 제품 키워드 비교</a><br>
-<div>
-<img width="700" height="350px" src="https://user-images.githubusercontent.com/79880476/203334516-b5bd2da3-e1b7-4946-ba8f-080848e02ccd.jpg">
-</div>
-<a> - 제품 키워드 이용한 키워드 분포도</a><br>
+### 2. 제품 설명 강조 키워드 '보습,진정,자극'의 빈도를 수치화하여, 광고 키워드와 비교하였는데 83개 제품 중 14개만 일치하였다.
+<table>
+  <tr>
+    <td><img src="https://user-images.githubusercontent.com/79880476/203334488-52d14bed-14c8-441a-8964-8b37a5aca6f1.jpg"></td>
+  </tr>
+  <tr align=center><td> -광고 키워드와 제품 키워드 비교</td></tr>
+</table>
 
-### 3. 성분 등급 점수 &댓글 평가 지수 상관 관계 분석을 해봤는데, 약간의 관계성이 있어 보이지만 표본 데이터 80개 & 긍정 리뷰 비중이 95%정도 이기 때문에 연관성을 분석하기에 한계가 있다고 판단했습니다.(긍정 - 하강그래프 / 부정 - 상승그래프가 이상적)
-<div>
-<img width="800" height="300px" src="https://user-images.githubusercontent.com/79880476/203342856-5e07e51c-10c1-4fae-8453-adef65f92d9b.jpg">
-</div>
-<a> - 전체 제품의 성분 score값과 긍부정 리뷰 비율의 그래프</a><br>
+### 3. 성분 등급 점수 & 댓글 평가 지수 상관 관계 분석(긍정 - 하강그래프 / 부정 - 상승그래프가 이상적), 잘 나오지 않았다.
+
+<table>
+  <tr >
+    <td><img src="https://user-images.githubusercontent.com/79880476/203342856-5e07e51c-10c1-4fae-8453-adef65f92d9b.jpg"></td>
+  </tr>
+  <tr align=center><td>- 전체 제품의 성분 score값과 긍부정 리뷰 비율의 그래프</td></tr>
+</table>
 
 ---
-# 7. 결론 
-<div>
-<img width="400" height="350px" src="https://user-images.githubusercontent.com/79880476/203342847-cf1713b7-a786-44e1-8e07-13bed3558287.jpg">
-</div>
-<a> - 제품 성분등급 & 제품의 긍정 리뷰 지수 간의 상관관계 그래프</a><br>
+# 7. 결론
+<table>
+  <tr >
+    <td><img src="https://user-images.githubusercontent.com/79880476/203334516-b5bd2da3-e1b7-4946-ba8f-080848e02ccd.jpg"></td>
+  </tr>
+  <tr align=center><td>- 제품 키워드 이용한 키워드 분포도</td></tr>
+</table>
+  
+### ∴ 제품 키워드 실제 효능과 무관하지만, 소비자에게 사용자(리뷰어)들이 평가한 효능 수치화 해서 정보 제공 목적으로 활용 가능하다고 판단하였습니다.<br>
+<table>
+  <tr >
+    <td><img src="https://user-images.githubusercontent.com/79880476/203342847-cf1713b7-a786-44e1-8e07-13bed3558287.jpg"></td>
+  </tr>
+  <tr align=center><td>- 제품 성분등급 & 제품의 긍정 리뷰 지수 간의 상관관계 그래프</td></tr>
+</table>
 
-### ∴약간의 관계성이 있어 보이지만, 표본 데이터 83개 & 긍정 리뷰 비중이 95%정도 이기 때문에 연관성을 분석하기에 한계가 있다고 판단하였습니다.<br>
+### ∴ 약간의 관계성이 있어 보이지만, 표본 데이터 83개 & 긍정 리뷰 비중이 95%정도 이기 때문에 연관성을 분석하기에 한계가 있고, 좀 더 정확한 분석을 하기위해서 데이터가 더 필요하다고 판단하였습니다.<br>
 
 ---
 # 8. 사용 코드 
